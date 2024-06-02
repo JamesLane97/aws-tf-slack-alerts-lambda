@@ -9,10 +9,9 @@ This project utilizes Terraform to configure AWS resources and a Python Lambda f
 ## Architecture
 
 The architecture of this project includes:
-- AWS RDS and ECS services
-- CloudWatch Alarms for monitoring specific metrics
+- CloudWatch Alarms for monitoring specific metrics of RDS and ECS services
 - SNS topics for alert notifications
-- Lambda function to handle SNS messages and forward them to Slack
+- Python Lambda function to handle SNS messages and forward them to Slack
 
 ## Terraform Configuration
 
